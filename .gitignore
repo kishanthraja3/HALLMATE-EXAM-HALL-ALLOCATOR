@@ -1,0 +1,50 @@
+# Dependencies
+**/node_modules/
+
+# Expo / Builds
+**/.expo/
+**/dist/
+**/web-build/
+**/dist-ssr/
+**/build/
+**/out/
+
+# Environment / Secrets
+**/.env
+**/.env*.local
+**/*.pem
+**/*.jks
+**/*.p8
+**/*.p12
+**/*.key
+**/*.mobileprovision
+
+# Native generated folders (for React Native)
+**/ios/
+**/android/
+.kotlin/
+*.orig.*
+
+# Metro bundler
+**/.metro-health-check*
+
+# IDEs & System files
+.idea/
+.vscode/
+**/.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.tsbuildinfo
+
+# Logs
+**/logs/
+**/*.log
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/pnpm-debug.log*
+**/lerna-debug.log*
